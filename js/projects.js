@@ -15,4 +15,11 @@ export const projects = [
     description: 'Ten computer science topics, twenty timed questions each, and a full review of why every answer is right or wrong.',
     art: { base: '#0e1026', glowA: '#7a5cff', glowB: '#33d6c0' },
   },
+  {
+    name: 'Jack and the Beanstalk',
+    kind: 'AI Image',
+    url: 'https://beanstalk.eliweiss.me',
+    description: 'Upload a photo, get cartoonified in the style you pick, and star as Jack planting the magic beans and climbing the beanstalk.',
+    art: { base: '#0b1a10', glowA: '#e8b33c', glowB: '#4fbf6a' },
+  },
 ];

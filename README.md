@@ -34,4 +34,4 @@ Then open http://localhost:3100.
 
 Netlify deploys the repo root from `main` on every push. Develop on `dev` and merge to `main` when ready.
 
-`eliweiss.me` is registered at GoDaddy, which also hosts its DNS. The root `A` record points to Netlify, and each project subdomain is a `CNAME` to its own Netlify site.
+`eliweiss.me` is registered at GoDaddy, which also hosts its DNS. The root `A` record points to Netlify, and each project subdomain is a `CNAME` to its own Netlify site. The exception is `beanstalk`, which needs a server, so its `CNAME` points to a Render web service instead.
